@@ -219,3 +219,12 @@ p {
     width: 344px;
     height: 224px;
 }
+
+/* testimonials section */
+#testimonials{
+    margin: 6rem 0;
+}
+#testimonials > img {
+    width: 716px;
+    height: 731px;
+}
