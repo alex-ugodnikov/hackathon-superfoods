@@ -148,7 +148,7 @@ body {
 }
 
 .text-small {
-    color: #959595;
+    color: #5DAF00;
     font-size: 20px;
     font-weight: bold;
 }
@@ -156,6 +156,7 @@ body {
 .text-subheader {
     font: normal normal bold 63px/87px Poppins;
     font-weight: bold;
+    color: #003200;
 }
 
 .tiles {
@@ -165,7 +166,7 @@ body {
 }
 
 .tile {
-    background-color: #4F4F4F;
+    background-color: #126011;
     width: 472px;
     height: 551px;
     border-radius: 8px;
@@ -187,8 +188,27 @@ body {
     margin: 0 2rem;
 }
 
-#why-we-do-this p {
+p {
     font: normal normal normal 20px/32px Poppins;
     color: #FFFFFF80;
     margin: 2rem;
+}
+
+/* recipes */
+
+#recipes {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-tile{
+    width: 344px;
+    height: 469px;
+    background: #003200 0% 0% no-repeat padding-box;
+    margin: 1rem;
+}
+
+.recipe-tile > img{
+    width: 344px;
+    height: 224px;
 }
