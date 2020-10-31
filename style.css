@@ -65,17 +65,24 @@ body {
 }
 
 #header-title {
-    padding-right: 250px;
+    padding-right: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.header-image img {
+    width: 600px;
 }
 
 .title-1 h1 {
     font: normal normal bold 4rem Poppins;
     letter-spacing: 2.33px;
     color: #003200;
-    padding-left: 100px;margin:0;line-height: 150%;
+    
+    padding: 20px 100px;
+    margin:0;
+    line-height: 150%;
 }
 
 .title-2 h2 {
