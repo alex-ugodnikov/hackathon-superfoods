@@ -22,7 +22,7 @@ body {
 #logo {
     width: 320px;
     height: 80px;
-    background: #000000 0% 0% no-repeat padding-box;
+    background: #084100 0% 0% no-repeat padding-box;
     text-align: center;
     font: normal normal bold 2rem Poppins;
     letter-spacing: 0.83px;
@@ -43,43 +43,59 @@ body {
 #menu>ul>li a {
     text-align: left;
     letter-spacing: 0.5px;
-    color: #959595;
+    color: #003200;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 800;
 }
 
 #menu>ul>li a:hover {
-    color: #707070;
+    color: #006d00;
+    ;
 }
 
 /* Header section */
 
 #header {
     padding-top: 57px;
-    padding-left: 57px;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
 
 }
 
 #header-title {
-
     padding-right: 250px;
-    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#header-title h1 {
+.title-1 h1 {
     font: normal normal bold 4rem Poppins;
     letter-spacing: 2.33px;
-    color: #000000;
+    color: #003200;
+    padding-left: 100px;margin:0;line-height: 150%;
 }
 
-#header-title h2 {
+.title-2 h2 {
+    letter-spacing: 0.63px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.title-2 {
+    background: #126011 0% 0% no-repeat padding-box;
+    padding: 0 100px;
+}
+
+.title-3 h3 {
     text-align: left;
     letter-spacing: 0.63px;
-    color: #666666;
-    opacity: 1;
+    color: #126011;
+    padding-left: 100px; 
+    margin: 0;
 }
 
 /* Benefits section */
